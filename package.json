@@ -1,0 +1,25 @@
+{
+  "name": "userpostapp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "env-cmd -f ./config/dev.env nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.8.9",
+    "nodemon": "^2.0.6",
+    "validator": "^12.1.0"
+  },
+  "bugs": {
+    "url": "https://github.com/MUKESHSIHAG/user_post/issues"
+  },
+  "homepage": "https://github.com/MUKESHSIHAG/user_post#readme",
+  "description": ""
+}
